@@ -1,0 +1,38 @@
+services:
+  tests:
+    build: .
+    volumes:
+      - .:/app
+
+  notebook:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --no-browser
+      --allow-root
+      --NotebookApp.token=''
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  streamlit:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      - api
+    command: streamlit run app/streamlit_app.py --server.port 8501 --server.address 0.0.0.0

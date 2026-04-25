@@ -1,0 +1,106 @@
+
+=== Apriori ===
+
+IF [chdet_high, doxodn_high, potras_high, rasress_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.745, lift=5.29
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, potras_high, rasress_high]; sup=0.103, conf=0.731, lift=5.29
+IF [chdet_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high, potras_high]; sup=0.103, conf=0.806, lift=5.27
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasq_high, rasress_high]; sup=0.103, conf=0.672, lift=5.27
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, potras_high]; sup=0.103, conf=0.731, lift=5.17
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high, potras_high]; sup=0.103, conf=0.731, lift=5.17
+IF [chdet_high, doxodn_high, potras_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.727, lift=5.17
+IF [chdet_high, doxodn_high, potras_high] THEN [chlico_high, rasq_high, rasress_high]; sup=0.103, conf=0.727, lift=5.17
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasq_high, rasress_high]; sup=0.103, conf=0.651, lift=5.12
+IF [chdet_high, potras_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.810, lift=5.12
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasq_high, rasress_high]; sup=0.103, conf=0.651, lift=5.10
+IF [chdet_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.806, lift=5.10
+IF [chdet_high, doxodn_high, rasress_high] THEN [chlico_high, potras_high, rasq_high]; sup=0.103, conf=0.716, lift=5.10
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, doxodn_high, rasress_high]; sup=0.103, conf=0.732, lift=5.10
+IF [chdet_high, doxodn_high, rasress_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.716, lift=5.09
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, rasress_high]; sup=0.103, conf=0.731, lift=5.09
+IF [chdet_high, potras_high, rasq_high] THEN [chlico_high, doxodn_high, rasress_high]; sup=0.103, conf=0.788, lift=4.99
+IF [chdet_high, potras_high, rasq_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.788, lift=4.99
+IF [chlico_high, doxodn_high, rasress_high] THEN [chdet_high, potras_high, rasq_high]; sup=0.103, conf=0.651, lift=4.99
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasq_high]; sup=0.103, conf=0.651, lift=4.99
+IF [chlico_high, doxodn_high, potras_high, rasress_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.672, lift=4.93
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.672, lift=4.93
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, potras_high]; sup=0.103, conf=0.755, lift=4.93
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, potras_high, rasress_high]; sup=0.103, conf=0.755, lift=4.93
+IF [chdet_high, doxodn_high] THEN [chlico_high, potras_high, rasq_high]; sup=0.103, conf=0.680, lift=4.84
+IF [chlico_high, potras_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.732, lift=4.84
+IF [chdet_high, doxodn_high] THEN [chlico_high, potras_high, rasq_high, rasress_high]; sup=0.103, conf=0.680, lift=4.84
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.732, lift=4.84
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.731, lift=4.83
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.731, lift=4.83
+IF [chdet_high, doxodn_high] THEN [chlico_high, rasq_high, rasress_high]; sup=0.103, conf=0.680, lift=4.83
+IF [chdet_high, doxodn_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.680, lift=4.83
+IF [chlico_high, doxodn_high, rasress_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.651, lift=4.78
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.651, lift=4.78
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.755, lift=4.78
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, rasress_high]; sup=0.103, conf=0.755, lift=4.78
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.103, conf=0.816, lift=3.42
+IF [chlico_high, rasq_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.114, conf=0.809, lift=3.39
+IF [chdet_high, potras_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.125, conf=0.523, lift=3.31
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.125, conf=0.790, lift=3.31
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasress_high]; sup=0.130, conf=0.820, lift=3.09
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, potras_high]; sup=0.103, conf=0.816, lift=3.08
+IF [chlico_high, doxodn_high, rasq_high, rasress_high] THEN [chdet_high, potras_high]; sup=0.103, conf=0.816, lift=3.08
+IF [chdet_high, doxodn_high, rasq_high] THEN [chlico_high, potras_high, rasress_high]; sup=0.103, conf=0.846, lift=3.07
+IF [chlico_high, doxodn_high, potras_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.103, conf=0.816, lift=3.07
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.103, conf=0.816, lift=3.07
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasress_high]; sup=0.125, conf=0.816, lift=3.07
+IF [chlico_high, rasq_high] THEN [chdet_high, potras_high]; sup=0.114, conf=0.809, lift=3.05
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, potras_high]; sup=0.114, conf=0.809, lift=3.05
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.114, conf=0.811, lift=3.05
+
+=== FP-Growth ===
+
+IF [chdet_high, doxodn_high, potras_high, rasress_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.745, lift=5.29
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, potras_high, rasress_high]; sup=0.103, conf=0.731, lift=5.29
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasq_high, rasress_high]; sup=0.103, conf=0.672, lift=5.27
+IF [chdet_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high, potras_high]; sup=0.103, conf=0.806, lift=5.27
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high, potras_high]; sup=0.103, conf=0.731, lift=5.17
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, potras_high]; sup=0.103, conf=0.731, lift=5.17
+IF [chdet_high, doxodn_high, potras_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.727, lift=5.17
+IF [chdet_high, doxodn_high, potras_high] THEN [chlico_high, rasq_high, rasress_high]; sup=0.103, conf=0.727, lift=5.17
+IF [chdet_high, potras_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.810, lift=5.12
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasq_high, rasress_high]; sup=0.103, conf=0.651, lift=5.12
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasq_high, rasress_high]; sup=0.103, conf=0.651, lift=5.10
+IF [chdet_high, rasq_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.806, lift=5.10
+IF [chdet_high, doxodn_high, rasress_high] THEN [chlico_high, potras_high, rasq_high]; sup=0.103, conf=0.716, lift=5.10
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, doxodn_high, rasress_high]; sup=0.103, conf=0.732, lift=5.10
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high, rasress_high]; sup=0.103, conf=0.731, lift=5.09
+IF [chdet_high, doxodn_high, rasress_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.716, lift=5.09
+IF [chdet_high, potras_high, rasq_high] THEN [chlico_high, doxodn_high, rasress_high]; sup=0.103, conf=0.788, lift=4.99
+IF [chdet_high, potras_high, rasq_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.788, lift=4.99
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasq_high]; sup=0.103, conf=0.651, lift=4.99
+IF [chlico_high, doxodn_high, rasress_high] THEN [chdet_high, potras_high, rasq_high]; sup=0.103, conf=0.651, lift=4.99
+IF [chlico_high, doxodn_high, potras_high, rasress_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.672, lift=4.93
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, potras_high, rasress_high]; sup=0.103, conf=0.755, lift=4.93
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, potras_high]; sup=0.103, conf=0.755, lift=4.93
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.672, lift=4.93
+IF [chlico_high, potras_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.732, lift=4.84
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.732, lift=4.84
+IF [chdet_high, doxodn_high] THEN [chlico_high, potras_high, rasq_high]; sup=0.103, conf=0.680, lift=4.84
+IF [chdet_high, doxodn_high] THEN [chlico_high, potras_high, rasq_high, rasress_high]; sup=0.103, conf=0.680, lift=4.84
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.731, lift=4.83
+IF [chdet_high, doxodn_high] THEN [chlico_high, rasq_high, rasress_high]; sup=0.103, conf=0.680, lift=4.83
+IF [chdet_high, doxodn_high] THEN [chlico_high, rasq_high]; sup=0.103, conf=0.680, lift=4.83
+IF [chlico_high, rasq_high] THEN [chdet_high, doxodn_high]; sup=0.103, conf=0.731, lift=4.83
+IF [chlico_high, doxodn_high, rasress_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.651, lift=4.78
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasq_high]; sup=0.103, conf=0.651, lift=4.78
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high, rasress_high]; sup=0.103, conf=0.755, lift=4.78
+IF [chdet_high, rasq_high] THEN [chlico_high, doxodn_high]; sup=0.103, conf=0.755, lift=4.78
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.103, conf=0.816, lift=3.42
+IF [chlico_high, rasq_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.114, conf=0.809, lift=3.39
+IF [chdet_high, potras_high, rasress_high] THEN [chlico_high, doxodn_high]; sup=0.125, conf=0.523, lift=3.31
+IF [chlico_high, doxodn_high] THEN [chdet_high, potras_high, rasress_high]; sup=0.125, conf=0.790, lift=3.31
+IF [chlico_high, doxodn_high] THEN [chdet_high, rasress_high]; sup=0.130, conf=0.820, lift=3.09
+IF [chlico_high, doxodn_high, rasq_high, rasress_high] THEN [chdet_high, potras_high]; sup=0.103, conf=0.816, lift=3.08
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, potras_high]; sup=0.103, conf=0.816, lift=3.08
+IF [chdet_high, doxodn_high, rasq_high] THEN [chlico_high, potras_high, rasress_high]; sup=0.103, conf=0.846, lift=3.07
+IF [chlico_high, doxodn_high, potras_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.103, conf=0.816, lift=3.07
+IF [chlico_high, doxodn_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.103, conf=0.816, lift=3.07
+IF [chlico_high, doxodn_high, potras_high] THEN [chdet_high, rasress_high]; sup=0.125, conf=0.816, lift=3.07
+IF [chlico_high, rasq_high, rasress_high] THEN [chdet_high, potras_high]; sup=0.114, conf=0.809, lift=3.05
+IF [chlico_high, rasq_high] THEN [chdet_high, potras_high]; sup=0.114, conf=0.809, lift=3.05
+IF [chlico_high, potras_high, rasq_high] THEN [chdet_high, rasress_high]; sup=0.114, conf=0.811, lift=3.05
